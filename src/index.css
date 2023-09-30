@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fondologin{
+    background-image: url("./assets/timesheet.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fondologin::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* styles.css */
+.typing-animation h1 {
+    overflow: hidden; /* Oculta el texto que no se ha escrito aún */
+    white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+    animation: typing 5s steps(30, end) infinite;
+    border-right: 2px solid #333; /* Crea el efecto del cursor de escritura */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 105%;
+    }
+  }
+  
