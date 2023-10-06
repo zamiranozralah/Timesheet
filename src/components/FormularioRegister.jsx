@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 function FormularioRegister() {
   return (
     <div className="bg-zinc-100 p-12 rounded-xl shadow-2xl">
@@ -32,7 +32,10 @@ function FormularioRegister() {
               />
             </div>
             <div>
-              <button className="w-full h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg text-white hover:bg-gradient-to-bl transition duration-300">Registrar</button>
+              <Link to="/home">
+                <button className="w-full h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg text-white hover:bg-gradient-to-bl transition duration-300">Registrar</button>
+              </Link>
+             
             </div>
         </form>
         <div className="mt-4">

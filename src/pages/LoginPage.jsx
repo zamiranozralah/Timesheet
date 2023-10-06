@@ -1,6 +1,5 @@
 import FormularioLogin from "../components/FormularioLogin"
 import { Link } from "react-router-dom"
-import img from "../assets/timesheet.jpg"
 function LoginPage() {
   return (
     <div className="flex w-full h-screen">

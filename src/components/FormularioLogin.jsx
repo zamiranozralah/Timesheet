@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 function FormularioLogin() {
   return (
     <div className="bg-zinc-100 p-12 rounded-xl shadow-2xl">
@@ -23,8 +23,11 @@ function FormularioLogin() {
                 className="w-full p-4 bg-transparent border-b-2 border-gray-300 focus:outline-none"
               />
             </div>
+            
             <div>
-              <button className="w-full h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg text-white hover:bg-gradient-to-bl">Iniciar sesión</button>
+              <Link to="/home">
+                <button className="w-full h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg text-white hover:bg-gradient-to-bl">Iniciar sesión</button>
+              </Link>
             </div>
         </form>
         <div>
